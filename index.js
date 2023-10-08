@@ -9,8 +9,6 @@ app.use('/', pagesRoutes);
 
 app.listen(PORT, ()=>{
     console.log("server listening on port: "+PORT);
-    console.log("ciao")
-
 });
 
 
