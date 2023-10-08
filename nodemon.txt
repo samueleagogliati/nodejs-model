@@ -1,0 +1,10 @@
+npm i -D nodemon
+
+aggiungere in package.json:
+"scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  }
+
+
+npm run dev
